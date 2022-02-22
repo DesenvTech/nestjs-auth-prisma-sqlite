@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Post, Request } from '@nestjs/common';
-import { IsPublic } from 'src/auth/decorators/is-public.decorator';
-import { AuthRequest } from 'src/auth/interfaces/AuthRequest';
+import { IsPublic } from '../auth/decorators/is-public.decorator';
+import { AuthRequest } from '../auth/interfaces/AuthRequest';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UserService } from './user.service';
 
